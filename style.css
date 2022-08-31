@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+}
+.hero{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}   
+.img-main{
+    width: 80%;
+    height: 80%;
+}
+.showLatter{
+    display: none;
+}
+.showHideLatter,
+.changeLatter{
+    border: none;
+    width: 100px;
+    height: 35px;
+    background-color: blueviolet;
+    cursor: pointer;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+.showHideLatter{
+    background-color: palevioletred;
+}
+.changeLatter:hover{
+    background-color: rgb(124, 14, 226);
+}
+.showHideLatter:hover{
+    background-color: rgb(237, 99, 145);
+}
